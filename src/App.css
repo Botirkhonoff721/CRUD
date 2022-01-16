@@ -1,0 +1,19 @@
+.task{
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgb(2, 1, 7);
+}
+
+table {
+    width: 800px;
+    height: 200px;
+    text-align: center;
+  
+}
+/* thead {
+
+    position: fixed;
+}
+th {
+} */
+
