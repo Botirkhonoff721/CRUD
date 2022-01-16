@@ -16,7 +16,7 @@ class Test extends React.Component {
   
      const onDelete=(id)=>{
        const rest = this.state.data.filter((value)=>value.id !== id)
-       this.setState({data:[...this.state.data,rest]})
+       this.setState({data: rest})
     }     
     const onChange=(e)=>{
       console.log(e.target.name)
